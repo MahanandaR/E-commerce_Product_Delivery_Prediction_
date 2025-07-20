@@ -3,6 +3,53 @@ import pandas as pd
 import joblib
 import time
 import base64
+import warnings
+import sys
+
+# DEBUGGING SECTION - START
+st.write("🔍 **Debug Information:**")
+
+# Python version check
+st.write(f"Python version: {sys.version}")
+
+# Numpy debugging
+try:
+    import numpy as np
+    st.success(f"✅ Numpy successfully imported - Version: {np.__version__}")
+    st.write(f"Numpy location: {np.__file__}")
+except ImportError as e:
+    st.error(f"❌ Numpy import error: {e}")
+
+# Pandas debugging
+try:
+    import pandas as pd
+    st.success(f"✅ Pandas successfully imported - Version: {pd.__version__}")
+except ImportError as e:
+    st.error(f"❌ Pandas import error: {e}")
+
+# Scikit-learn debugging
+try:
+    import sklearn
+    st.success(f"✅ Scikit-learn successfully imported - Version: {sklearn.__version__}")
+except ImportError as e:
+    st.error(f"❌ Scikit-learn import error: {e}")
+
+# Joblib debugging
+try:
+    import joblib
+    st.success(f"✅ Joblib successfully imported - Version: {joblib.__version__}")
+except ImportError as e:
+    st.error(f"❌ Joblib import error: {e}")
+
+# Imbalanced-learn debugging
+try:
+    import imblearn
+    st.success(f"✅ Imbalanced-learn successfully imported - Version: {imblearn.__version__}")
+except ImportError as e:
+    st.error(f"❌ Imbalanced-learn import error: {e}")
+
+st.write("---")
+# DEBUGGING SECTION - END
 
 
 model = joblib.load('final_delivery_model.joblib')
