@@ -100,13 +100,13 @@ Delays can damage brand reputation, increase costs, and lower repeat purchases.
 
 ✦ Power Bi Dashboard:
 -------------------
-<img width="2000" height="1104" alt="image" src="https://github.com/user-attachments/assets/cdea2ab7-f78b-453e-a715-9f173669f029" />
+
+<img width="2000" height="1104" alt="image" src="https://github.com/user-attachments/assets/13ba5926-661a-47ff-935a-2acade63f384" />
 
 
 ✦ Streamlit App:
 -------------------
-<img width="1998" height="1092" alt="image" src="https://github.com/user-attachments/assets/2f6fcaae-5c78-4ba7-adc5-9e47d27e69c1" />
-
+<img width="1913" height="928" alt="image" src="https://github.com/user-attachments/assets/d42aec1b-34ee-4962-8792-ef2f7aae95b5" />
 
 
 
